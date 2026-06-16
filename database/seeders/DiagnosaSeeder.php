@@ -12,39 +12,45 @@ class DiagnosaSeeder extends Seeder
         $data = [
 
             [
-                'kode'=>'D01',
-                'nama_diagnosa'=>'Ganti Oli Mesin',
-                'solusi'=>'Segera lakukan penggantian oli mesin.'
+                'kode'=>'K01',
+                'nama_diagnosa'=>'Kerusakan Komponen Puli Depan (Front Pulley)',
+                'solusi'=>'Periksa dan ganti komponen puli depan jika diperlukan.'
             ],
 
             [
-                'kode'=>'D02',
-                'nama_diagnosa'=>'Ganti Oli Gardan',
-                'solusi'=>'Lakukan penggantian oli gardan.'
+                'kode'=>'K02',
+                'nama_diagnosa'=>'Kerusakan dan Degradasi Sabuk Penggerak (V-Belt)',
+                'solusi'=>'Segera lakukan pemeriksaan dan penggantian V-Belt.'
             ],
 
             [
-                'kode'=>'D03',
-                'nama_diagnosa'=>'Servis CVT',
-                'solusi'=>'Lakukan pembersihan dan servis CVT.'
+                'kode'=>'K03',
+                'nama_diagnosa'=>'Kerusakan Komponen Puli Belakang (Rear Pulley)',
+                'solusi'=>'Periksa dan ganti komponen puli belakang jika diperlukan.'
             ],
 
             [
-                'kode'=>'D04',
-                'nama_diagnosa'=>'Ganti Roller CVT',
-                'solusi'=>'Roller CVT perlu diperiksa dan diganti.'
+                'kode'=>'K04',
+                'nama_diagnosa'=>'Kerusakan Mekanis Gir Reduksi (Gardan)',
+                'solusi'=>'Lakukan pemeriksaan dan perbaikan pada gir reduksi gardan.'
             ],
 
             [
-                'kode'=>'D05',
-                'nama_diagnosa'=>'Ganti V-Belt',
-                'solusi'=>'V-Belt perlu diperiksa dan diganti.'
+                'kode'=>'K05',
+                'nama_diagnosa'=>'Kerusakan dan Kemacetan Unit Kickstarter',
+                'solusi'=>'Periksa dan perbaiki mekanisme kickstarter.'
             ],
 
             [
-                'kode'=>'D06',
-                'nama_diagnosa'=>'Tidak Perlu Tindakan',
-                'solusi'=>'Motor masih dalam kondisi baik.'
+                'kode'=>'K06',
+                'nama_diagnosa'=>'Kebutuhan Penggantian Oli Gardan Segera',
+                'solusi'=>'Segera lakukan penggantian oli gardan.'
+            ],
+
+            [
+                'kode'=>'K07',
+                'nama_diagnosa'=>'Kebocoran Seal Transmisi Gardan',
+                'solusi'=>'Periksa dan ganti seal transmisi gardan yang bocor.'
             ],
 
         ];

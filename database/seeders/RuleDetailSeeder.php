@@ -71,5 +71,21 @@ class RuleDetailSeeder extends Seeder
         foreach($rule7 as $id){
             RuleDetail::create(['rule_id'=>7,'gejala_id'=>$id,'cf_pakar'=>0.9]);
         }
+
+        /*
+RULE 8 (K08 - Kebutuhan Penggantian Oli Mesin Segera)
+
+IF G21 AND G22 AND G23 AND G24 AND G25
+*/
+
+$rule8 = [21,22,23,24,25];
+
+foreach($rule8 as $id){
+    RuleDetail::create([
+        'rule_id'=>8,
+        'gejala_id'=>$id,
+        'cf_pakar'=>0.9
+    ]);
+}
     }
 }

@@ -36,5 +36,8 @@ class RuleSeeder extends Seeder
         Rule::create([
             'diagnosa_id' => 7 // K07 - Kebocoran Seal Transmisi Gardan
         ]);
+        Rule::create([
+    'diagnosa_id' => 8 // K08 - Kebutuhan Penggantian Oli Mesin Segera
+]);
     }
 }

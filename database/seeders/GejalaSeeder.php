@@ -31,6 +31,30 @@ class GejalaSeeder extends Seeder
             ['kode'=>'G18','nama_gejala'=>'Konsistensi oli gardan encer dan mengandung serpihan logam'],
             ['kode'=>'G19','nama_gejala'=>'Bearing poros gir reduksi terasa longgar atau oblak'],
             ['kode'=>'G20','nama_gejala'=>'Muncul rembesan atau tetesan oli di sekitar seal gardan'],
+            [
+    'kode'=>'G21',
+    'nama_gejala'=>'Jarak tempuh sejak ganti oli mesin sudah melebihi interval servis'
+],
+
+[
+    'kode'=>'G22',
+    'nama_gejala'=>'Oli mesin berwarna hitam pekat dan encer'
+],
+
+[
+    'kode'=>'G23',
+    'nama_gejala'=>'Mesin terasa lebih kasar dibanding biasanya'
+],
+
+[
+    'kode'=>'G24',
+    'nama_gejala'=>'Tarikan motor terasa lebih berat terutama saat akselerasi awal'
+],
+
+[
+    'kode'=>'G25',
+    'nama_gejala'=>'Suara mesin terdengar lebih berisik saat putaran rendah'
+],
 
         ];
 

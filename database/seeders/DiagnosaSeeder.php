@@ -52,6 +52,11 @@ class DiagnosaSeeder extends Seeder
                 'nama_diagnosa'=>'Kebocoran Seal Transmisi Gardan',
                 'solusi'=>'Periksa dan ganti seal transmisi gardan yang bocor.'
             ],
+            [
+    'kode'=>'K08',
+    'nama_diagnosa'=>'Kebutuhan Penggantian Oli Mesin Segera',
+    'solusi'=>'Segera lakukan penggantian oli mesin sesuai spesifikasi pabrikan dan lakukan pengecekan kondisi mesin.'
+],
 
         ];
 

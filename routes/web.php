@@ -60,4 +60,4 @@ Route::get('/konsultasi', function () {
     $gejalas = Gejala::orderBy('kode')->get();
 
     return view('konsultasi.form', compact('gejalas'));
-});
+})->name('konsultasi');
